@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 238, 233);
+}
+
+.wrapper {
+    font-family: sans-serif;
+    width: 600px;
+    margin: 50px auto;
+    background-color: rgba(211, 211, 211, 0.989);
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+}
+
+.picture {
+    user-select: none;
+    border-radius: 100%;
+    display: block;
+    margin:25px auto;
+    width: 190px;
+    height: 190px;
+}
+
+p{
+    padding: 25px 100px;
+    text-align: center;
+}
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 5px -5px 7px black;
+    transition: 1s;
+    user-select: none;
+}
+
+.title:hover {
+    color: red;
+    /* transform: rotate(180deg); */
+    /* transform: rotateY(360deg) translate(100px); */
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    text-shadow: 5px -5px 7px black;
+}
+
+.sub-title:hover {
+    color: rgb(230, 17, 17);
+}
+
+.sociaol-media {
+    user-select: none;
+    text-align: center;
+    margin-top: 50px;
+    border: 2px solid gray;
+    background-color: grey;
+    padding: 10px;
+}
+
+
+.sociaol-media-icon {
+  position: relative;
+    border-radius: 100%;
+    width:70px;
+    height: 70px;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+.sociaol-media-icon:hover{
+    top: -5px;
+}
+/* .facebook-icon {
+    border-radius: 100%;
+    width:70px;
+    height: 70px;
+}
+
+.instagram-icon {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+
+}
+
+.whatsapp-icon {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+
+} */
